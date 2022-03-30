@@ -10,6 +10,9 @@ namespace ProductiveBob_Firebase.Views
         Timer t;
         int hours = 0, mins = 0, secs = 0;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
+
+        //    private string dID; 
+
         public TimerPage()
         {
             InitializeComponent();
@@ -50,10 +53,24 @@ namespace ProductiveBob_Firebase.Views
             Medium.IsVisible = b;
             Bad.IsVisible = b;
         }
+        private static String GetTimestamp(DateTime value)
+        {
+            return value.ToString("yyyyMMdd HH:mm:ss");
+        }
         private async void resetButton(object sender, EventArgs e, int Rating)
         {
+            try
+            {
+                IGetDeviceInfo dID = DependencyService.Get<IGetDeviceInfo>();
+                string deviceID = dID.GetDeviceID();
+   //             dID = DependencyService.Get<IGetDeviceInfo>().GetDeviceID();
+                Console.WriteLine("Device id = ", deviceID);
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
             // DependencyService.Get<IGetDeviceInfo>().GetDeviceID()
-            await firebaseHelper.AddSession("Dis is", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), "sometime" );
+            await firebaseHelper.AddSession("Device ID", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), GetTimestamp(DateTime.Now) );
             await DisplayAlert("Success", "Person Added Successfully", "OK");
             var allSessions = await firebaseHelper.GetAllSessions();
             lstSessions.ItemsSource = allSessions;
