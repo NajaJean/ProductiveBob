@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductiveBob_Firebase.Services;
+using System;
 using System.Timers;
 using Xamarin.Forms;
 
@@ -51,7 +52,8 @@ namespace ProductiveBob_Firebase.Views
         }
         private async void resetButton(object sender, EventArgs e, int Rating)
         {
-            await firebaseHelper.AddSession("NajasComputer", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), "sometime" );
+            // DependencyService.Get<IGetDeviceInfo>().GetDeviceID()
+            await firebaseHelper.AddSession("Dis is", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), "sometime" );
             await DisplayAlert("Success", "Person Added Successfully", "OK");
             var allSessions = await firebaseHelper.GetAllSessions();
             lstSessions.ItemsSource = allSessions;

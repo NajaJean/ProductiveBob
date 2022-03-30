@@ -9,7 +9,7 @@ namespace ProductiveBob_Firebase
 {
     public class FirebaseHelper
     {
-        FirebaseClient firebase = new FirebaseClient("https://productivebob-73eee.firebaseio.com/");
+        FirebaseClient firebase = new FirebaseClient("https://productivebob-73eee-default-rtdb.firebaseio.com/");
         public async Task<List<Session>> GetAllSessions()
         {
             return (await firebase
