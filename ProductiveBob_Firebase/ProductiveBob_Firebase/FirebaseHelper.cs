@@ -21,7 +21,7 @@ namespace ProductiveBob_Firebase
                   Rating = item.Object.Rating,
                   Duration = item.Object.Duration,
                   Timestamp = item.Object.Timestamp
-              }).ToList();
+              }).Reverse().ToList();
         }
         public async Task AddSession(string deviceID, Guid id, int rating, TimeSpan duration, string timestamp)
         {
