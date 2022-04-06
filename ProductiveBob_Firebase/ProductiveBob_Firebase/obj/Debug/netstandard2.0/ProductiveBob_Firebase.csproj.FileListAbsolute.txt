@@ -14,3 +14,4 @@ C:\Users\Naja-\source\repos\ProductiveBob_Firebase\ProductiveBob_Firebase\Produc
 C:\Users\Naja-\source\repos\ProductiveBob_Firebase\ProductiveBob_Firebase\ProductiveBob_Firebase\obj\Debug\netstandard2.0\ref\ProductiveBob_Firebase.dll
 C:\Users\Naja-\source\repos\ProductiveBob_Firebase\ProductiveBob_Firebase\ProductiveBob_Firebase\obj\Debug\netstandard2.0\ProductiveBob_Firebase.pdb
 C:\Users\Naja-\source\repos\ProductiveBob_Firebase\ProductiveBob_Firebase\ProductiveBob_Firebase\obj\Debug\netstandard2.0\ProductiveBob_Firebase.csproj.AssemblyReference.cache
+C:\Users\Naja-\source\repos\ProductiveBob_Firebase\ProductiveBob_Firebase\ProductiveBob_Firebase\obj\Debug\netstandard2.0\Views\SessionsPage.xaml.g.cs

@@ -8,7 +8,6 @@ namespace ProductiveBob_Firebase
         public App()
         {
             InitializeComponent();
-   //         DependencyService.Get<IGetDeviceInfo>().GetDeviceID();
             MainPage = new AppShell();
         }
 

@@ -87,6 +87,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
@@ -232,6 +241,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.0.7",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -328,6 +338,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
@@ -473,6 +492,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.0.7",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -569,6 +589,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
@@ -714,6 +743,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.0.7",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -810,6 +840,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
@@ -955,6 +994,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.0.7",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -1293,6 +1333,39 @@
         "system.runtime.interopservices.windowsruntime.nuspec"
       ]
     },
+    "Xam.Plugin.DeviceInfo/4.1.1": {
+      "sha512": "tBoWE60pwlUDK9f+X3CeFBVTpU+OuMel8Hfp7bxYnJKiGGQ2I3S+8ZF1lJSxvlQf0o8C/IjGnddUeDqwBmWZfg==",
+      "type": "package",
+      "path": "xam.plugin.deviceinfo/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.DeviceInfo.dll",
+        "lib/monoandroid71/Plugin.DeviceInfo.pdb",
+        "lib/net45/Plugin.DeviceInfo.dll",
+        "lib/net45/Plugin.DeviceInfo.pdb",
+        "lib/netstandard1.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard1.0/Plugin.DeviceInfo.pdb",
+        "lib/netstandard2.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard2.0/Plugin.DeviceInfo.pdb",
+        "lib/tizen40/Plugin.DeviceInfo.dll",
+        "lib/tizen40/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.dll",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pri",
+        "lib/xamarinios10/Plugin.DeviceInfo.dll",
+        "lib/xamarinios10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinmac20/Plugin.DeviceInfo.dll",
+        "lib/xamarinmac20/Plugin.DeviceInfo.pdb",
+        "lib/xamarintvos10/Plugin.DeviceInfo.dll",
+        "lib/xamarintvos10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.dll",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.pdb",
+        "readme.txt",
+        "xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
+        "xam.plugin.deviceinfo.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.1": {
       "sha512": "u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
       "type": "package",
@@ -1561,6 +1634,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "FirebaseDatabase.net >= 4.0.7",
       "ProductiveBob_Firebase >= 1.0.0",
+      "Xam.Plugin.DeviceInfo >= 4.1.1",
       "Xamarin.Essentials >= 1.7.1",
       "Xamarin.Forms >= 5.0.0.2401"
     ]
@@ -1610,6 +1684,10 @@
           "FirebaseDatabase.net": {
             "target": "Package",
             "version": "[4.0.7, )"
+          },
+          "Xam.Plugin.DeviceInfo": {
+            "target": "Package",
+            "version": "[4.1.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

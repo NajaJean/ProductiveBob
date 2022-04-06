@@ -25,6 +25,6 @@
 
     <TabBar>
         <ShellContent Title="Timer" Icon="icon_about.png" Route="TimerPage" ContentTemplate="{DataTemplate local:TimerPage}" />
- <!--       <ShellContent Title="Sessions" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:SessionsPage}" /> -->
+        <ShellContent Title="Sessions" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:SessionsPage}" /> 
     </TabBar>
 </Shell>

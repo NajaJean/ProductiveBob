@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "//nnqfnwqjY5M+UbytNIWtSBxp5PksT1cEJk8qHXDLE3Sn066OGd6cKHihMMI/i5F8Ctw626eQI9MahO+grhrQ==",
+  "dgSpecHash": "mKmS34YTNyUQvww37tSmACpkAPjVF29lTJIbjuIQTwUOFSu6JGcYNEXBJo4YMISBSyFBpaqf4bhR6g7MMQqoIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Naja-\\source\\repos\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\Naja-\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\Naja-\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Naja-\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\xam.plugin.deviceinfo\\4.1.1\\xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
     "C:\\Users\\Naja-\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
   ],
   "logs": []

@@ -1,4 +1,5 @@
-﻿using ProductiveBob_Firebase.Services;
+﻿using Plugin.DeviceInfo;
+using ProductiveBob_Firebase.Services;
 using System;
 using System.Timers;
 using Xamarin.Forms;
@@ -19,12 +20,6 @@ namespace ProductiveBob_Firebase.Views
             BindingContext = this;
             StopClick.IsVisible = false;
             showRating(false);
-        }
-        protected async override void OnAppearing()
-        {
-            base.OnAppearing();
-            var allSessions = await firebaseHelper.GetAllSessions();
-            lstSessions.ItemsSource = allSessions;
         }
 
         private void btn_Start_Clicked(object sender, EventArgs e)
@@ -62,6 +57,7 @@ namespace ProductiveBob_Firebase.Views
             try
             {
                 IGetDeviceInfo dID = DependencyService.Get<IGetDeviceInfo>();
+                Console.WriteLine("Device Id: ", CrossDeviceInfo.Current.Id);
                 string deviceID = dID.GetDeviceID();
    //             dID = DependencyService.Get<IGetDeviceInfo>().GetDeviceID();
                 Console.WriteLine("Device id = ", deviceID);
@@ -72,8 +68,6 @@ namespace ProductiveBob_Firebase.Views
             // DependencyService.Get<IGetDeviceInfo>().GetDeviceID()
             await firebaseHelper.AddSession("Device ID", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), GetTimestamp(DateTime.Now) );
             await DisplayAlert("Success", "Person Added Successfully", "OK");
-            var allSessions = await firebaseHelper.GetAllSessions();
-            lstSessions.ItemsSource = allSessions;
 
             ResultTimer.Text = "00:00:00";
             LabelTimer.Text = "\n You can do it! \n";

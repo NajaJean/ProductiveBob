@@ -7,6 +7,8 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"LiteDB.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.DeviceInfo.dll",
 		"ProductiveBob_Firebase.dll",
 		"System.Reactive.dll",
 		"Xamarin.AndroidX.Activity.dll",
