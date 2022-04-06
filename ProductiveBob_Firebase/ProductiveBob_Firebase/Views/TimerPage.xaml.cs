@@ -11,8 +11,7 @@ namespace ProductiveBob_Firebase.Views
         Timer t;
         int hours = 0, mins = 0, secs = 0;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
-
-        //    private string dID; 
+        IGetDeviceInfo dID;
 
         public TimerPage()
         {
@@ -56,18 +55,24 @@ namespace ProductiveBob_Firebase.Views
         {
             try
             {
-                IGetDeviceInfo dID = DependencyService.Get<IGetDeviceInfo>();
-                Console.WriteLine("Device Id: ", CrossDeviceInfo.Current.Id);
+                dID = DependencyService.Get<IGetDeviceInfo>();
+                Console.WriteLine("Device Id: ", dID);
                 string deviceID = dID.GetDeviceID();
-   //             dID = DependencyService.Get<IGetDeviceInfo>().GetDeviceID();
                 Console.WriteLine("Device id = ", deviceID);
             } catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
-            // DependencyService.Get<IGetDeviceInfo>().GetDeviceID()
+   //         IGetDeviceInfo d = DependencyService.Get<IGetDeviceInfo>();
+    //        string dd = d.GetDeviceID();
+            try {Console.WriteLine("This is a suckky id: ", CrossDeviceInfo.Current.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
             await firebaseHelper.AddSession("Device ID", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), GetTimestamp(DateTime.Now) );
-            await DisplayAlert("Success", "Person Added Successfully", "OK");
 
             ResultTimer.Text = "00:00:00";
             LabelTimer.Text = "\n You can do it! \n";

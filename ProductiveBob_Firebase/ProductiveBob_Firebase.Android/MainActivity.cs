@@ -26,14 +26,14 @@ namespace ProductiveBob_Firebase.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-        public class GetInfoImplement : IGetDeviceInfo
+    }
+    public class GetInfoImplement : IGetDeviceInfo
+    {
+        string IGetDeviceInfo.GetDeviceID()
         {
-            string IGetDeviceInfo.GetDeviceID()
-            {
-                var context = Android.App.Application.Context;
-                string id = Android.Provider.Settings.Secure.GetString(context.ContentResolver, Secure.AndroidId);
-                return id;
-            }
+            var context = Android.App.Application.Context;
+            string id = Android.Provider.Settings.Secure.GetString(context.ContentResolver, Secure.AndroidId);
+            return id;
         }
     }
 }

@@ -17,13 +17,14 @@ namespace ProductiveBob_Firebase.iOS
             // you can specify it here.
             UIApplication.Main(args, null, "AppDelegate");
         }
-        public class GetInfoImplement : IGetDeviceInfo
+
+    }
+    public class GetInfoImplement : IGetDeviceInfo
+    {
+        string IGetDeviceInfo.GetDeviceID()
         {
-            string IGetDeviceInfo.GetDeviceID()
-            {
-                string id = UIDevice.CurrentDevice.IdentifierForVendor.AsString();
-                return id;
-            }
+            string id = UIDevice.CurrentDevice.IdentifierForVendor.AsString();
+            return id;
         }
     }
 }
