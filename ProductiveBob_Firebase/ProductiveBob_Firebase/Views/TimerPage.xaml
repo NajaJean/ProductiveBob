@@ -3,7 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProductiveBob_Firebase.Views.TimerPage"
              xmlns:vm="clr-namespace:ProductiveBob_Firebase.ViewModels"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             BackgroundColor="White"
+             BackgroundImage="Saly43.png"
+             >
     
     <ContentPage.BindingContext>
         <vm:TimerViewModel />
@@ -19,40 +22,52 @@
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <StackLayout Orientation="Vertical" Padding="20,20,20,20" Spacing="5">
                 <Label
                     x:Name = "LabelTimer"
                     Grid.Row = "1"
                     HorizontalOptions="Center"
-                    FontSize ="Large"
+                    FontSize ="30"
+                    TextColor="White"
                     Text="&#x0a; You can do it &#x0a;" />
+
+                <Label
+                    x:Name = "ResultTimer"
+                    Grid.Row = "2"
+                    HorizontalOptions="Center"
+                    FontSize ="40"
+                    TextColor="White"
+                    Text=" " />
                 <Button 
                     x:Name="StartClick"
                     Clicked="btn_Start_Clicked"
-                    Grid.Row="2"
+                    Grid.Row="3"
                     Text="Start"/>
                 <Button 
                     x:Name="StopClick"
                     Clicked="btn_Stop_Clicked"
-                    Grid.Row="3"
+                    Grid.Row="4"
                     Text="Stop"/>
-                <Label
+                <!--<Label
                     x:Name = "ResultTimer"
                     Grid.Row = "4"
                     HorizontalOptions="Center"
-                    FontSize ="Large"
-                    Text=" " />
+                    FontSize ="40"
+                    TextColor="White"
+                    Text=" " />-->
                 <Label
                     x:Name = "Space"
                     Grid.Row = "5"
                     HorizontalOptions="Center"
-                    FontSize ="Large"
+                    FontSize ="20"
+                    TextColor="White"
                     Text=" " />
                 <Label
                     x:Name = "Rating"
                     Grid.Row = "6"
                     HorizontalOptions="Center"
-                    FontSize ="Large"
+                    FontSize ="20"
+                    TextColor="White"
                     Text="How was your productivity?" />
                 <Button 
                     x:Name="Good"
@@ -90,7 +105,6 @@
                     <Button x:Name="btnUpdate" WidthRequest="200" Text="Update" Clicked="BtnUpdate_Clicked" />
                     <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
                 </StackLayout>
-
                 <ListView x:Name="lstPersons">
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -103,4 +117,4 @@
     </StackLayout>
     -->
 
-</ContentPage> 
+</ContentPage>

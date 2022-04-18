@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{92E84109-2956-49AA-BFDE-9D13DA47C889}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductiveBob_Firebase/ProductiveBob_Firebase/ViewModels/SessionsViewModel.cs">
+    <Files>
+      <File FileName="ProductiveBob_Firebase/ProductiveBob_Firebase/App.xaml" Line="30" Column="26" />
+      <File FileName="ProductiveBob_Firebase/ProductiveBob_Firebase/Views/TimerPage.xaml" Line="30" Column="35" />
+      <File FileName="ProductiveBob_Firebase/ProductiveBob_Firebase/Views/SessionsPage.xaml" Line="23" Column="82" />
+      <File FileName="ProductiveBob_Firebase/ProductiveBob_Firebase/ViewModels/SessionsViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProductiveBob_Firebase" expanded="True">
+            <Node name="ProductiveBob_Firebase" expanded="True">
+              <Node name="ViewModels" expanded="True">
+                <Node name="SessionsViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="ProductiveBob_Firebase.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ProductiveBob_Firebase.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ProductiveBob__Firebase.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

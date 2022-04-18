@@ -6,7 +6,7 @@ namespace ProductiveBob_Firebase.ViewModels
     {
         public TimerViewModel()
         {
-            Title = "Productivity Timer";
+            Title = "Producuctive Bob";
         }
         public ICommand OpenWebCommand { get; }
     }

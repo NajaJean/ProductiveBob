@@ -1640,39 +1640,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Naja-\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/daniela/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Naja-\\source\\repos\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.iOS\\ProductiveBob_Firebase.iOS.csproj",
+      "projectUniqueName": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.iOS/ProductiveBob_Firebase.iOS.csproj",
       "projectName": "ProductiveBob_Firebase.iOS",
-      "projectPath": "C:\\Users\\Naja-\\source\\repos\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.iOS\\ProductiveBob_Firebase.iOS.csproj",
-      "packagesPath": "C:\\Users\\Naja-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Naja-\\source\\repos\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.iOS\\obj\\",
+      "projectPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.iOS/ProductiveBob_Firebase.iOS.csproj",
+      "packagesPath": "/Users/daniela/.nuget/packages/",
+      "outputPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Naja-\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/daniela/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Naja-\\source\\repos\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj": {
-              "projectPath": "C:\\Users\\Naja-\\source\\repos\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj"
+            "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj": {
+              "projectPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj"
             }
           }
         }

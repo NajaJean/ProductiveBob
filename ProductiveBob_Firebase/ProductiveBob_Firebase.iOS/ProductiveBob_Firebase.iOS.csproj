@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\Saly-43.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -135,7 +136,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\ProductiveBob_Firebase\ProductiveBob_Firebase.csproj">
-      <Project>{28109281-A548-41E9-91F2-C9EFABCB4F4C}</Project>
+      <Project>{33468125-5FEF-4C2B-84D4-6442C7CCD746}</Project>
       <Name>ProductiveBob_Firebase</Name>
     </ProjectReference>
   </ItemGroup>

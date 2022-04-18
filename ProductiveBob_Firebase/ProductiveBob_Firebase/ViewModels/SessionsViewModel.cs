@@ -8,7 +8,7 @@ namespace ProductiveBob_Firebase.ViewModels
     {
         public SessionsViewModel()
         {
-            Title = "Sessions";
+            Title = "Session Overview";
         }
 
     }

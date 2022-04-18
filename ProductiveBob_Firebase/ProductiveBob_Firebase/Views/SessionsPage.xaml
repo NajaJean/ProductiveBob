@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:vm="clr-namespace:ProductiveBob_Firebase.ViewModels"
              x:Class="ProductiveBob_Firebase.Views.SessionsPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             BackgroundColor="#A77BF4">
 
     <ContentPage.BindingContext>
         <vm:SessionsViewModel />
@@ -14,16 +15,23 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="blue" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout BackgroundColor="Transparent" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
             </StackLayout>
         </StackLayout>
-        <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+        <ScrollView Grid.Row="1"  >
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="15">
                 <ListView x:Name="lstSessions">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <TextCell Text="{Binding Duration}" Detail="{Binding Rating}" />
+                            <TextCell
+                                Text="{Binding Duration}"
+                                Detail="{Binding Rating}"
+                                TextColor="White"
+                                
+
+
+                                />
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
