@@ -20,17 +20,14 @@
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1"  >
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="15">
+            <StackLayout Orientation="Vertical" Padding="20,24,20,24" Spacing="15">
                 <ListView x:Name="lstSessions">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell
-                                Text="{Binding Duration}"
-                                Detail="{Binding Rating}"
+                                Text="{Binding Duration, StringFormat= 'Duration: {0}'}"
+                                Detail= "{Binding Rating, StringFormat= 'Rating: {0}'}"
                                 TextColor="White"
-                                
-
-
                                 />
                         </DataTemplate>
                     </ListView.ItemTemplate>

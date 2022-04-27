@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.Android/ProductiveBob_Firebase.Android.csproj": {}
+    "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase.Android\\ProductiveBob_Firebase.Android.csproj": {}
   },
   "projects": {
-    "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.Android/ProductiveBob_Firebase.Android.csproj": {
+    "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase.Android\\ProductiveBob_Firebase.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.Android/ProductiveBob_Firebase.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase.Android\\ProductiveBob_Firebase.Android.csproj",
         "projectName": "ProductiveBob_Firebase.Android",
-        "projectPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.Android/ProductiveBob_Firebase.Android.csproj",
-        "packagesPath": "/Users/daniela/.nuget/packages/",
-        "outputPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.Android/obj/",
+        "projectPath": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase.Android\\ProductiveBob_Firebase.Android.csproj",
+        "packagesPath": "C:\\Users\\Naja-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/daniela/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Naja-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid11.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj": {
-                "projectPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj"
+              "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj": {
+                "projectPath": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj"
               }
             }
           }
@@ -56,22 +62,28 @@
         }
       }
     },
-    "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj": {
+    "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj",
+        "projectUniqueName": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj",
         "projectName": "ProductiveBob_Firebase",
-        "projectPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/ProductiveBob_Firebase.csproj",
-        "packagesPath": "/Users/daniela/.nuget/packages/",
-        "outputPath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase/obj/",
+        "projectPath": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\ProductiveBob_Firebase.csproj",
+        "packagesPath": "C:\\Users\\Naja-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/daniela/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Naja-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -119,7 +131,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

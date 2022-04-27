@@ -11,7 +11,7 @@
     <ContentPage.BindingContext>
         <vm:TimerViewModel />
     </ContentPage.BindingContext>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -48,13 +48,6 @@
                     Clicked="btn_Stop_Clicked"
                     Grid.Row="4"
                     Text="Stop"/>
-                <!--<Label
-                    x:Name = "ResultTimer"
-                    Grid.Row = "4"
-                    HorizontalOptions="Center"
-                    FontSize ="40"
-                    TextColor="White"
-                    Text=" " />-->
                 <Label
                     x:Name = "Space"
                     Grid.Row = "5"
@@ -69,6 +62,12 @@
                     FontSize ="20"
                     TextColor="White"
                     Text="How was your productivity?" />
+                <Button 
+                    x:Name="VeryGood"
+                    Clicked="btn_VeryGood_Clicked"
+                    Grid.Row="7"
+                    Command ="{Binding NewSe} "
+                    Text="Very Good"/>
                 <Button 
                     x:Name="Good"
                     Clicked="btn_Good_Clicked"
@@ -85,36 +84,12 @@
                     Clicked="btn_Bad_Clicked"
                     Grid.Row="9"
                     Text="Bad"/>
+                <Button 
+                    x:Name="VeryBad"
+                    Clicked="btn_VeryBad_Clicked"
+                    Grid.Row="9"
+                    Text="Very Bad"/>
             </StackLayout>
         </ScrollView>
     </Grid>
-    <!--
-    <StackLayout>
-        <StackLayout>
-            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
-                <Image x:Name="imgBanner" Source="banner.png" ></Image>
-                <Image Margin="0,0,0,10" HeightRequest="100" Source="firebase.png" ></Image>
-                <Label Margin="0,0,0,10" Text="Firebase Realtime Database" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-                <Entry x:Name="txtId" Placeholder="ID"></Entry>
-                <Entry x:Name="txtName" Placeholder="Enter Name"></Entry>
-                <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Button x:Name="btnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
-                    <Button x:Name="btnRetrive" WidthRequest="200" Text="Retrive" Clicked="BtnRetrive_Clicked"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Button x:Name="btnUpdate" WidthRequest="200" Text="Update" Clicked="BtnUpdate_Clicked" />
-                    <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
-                </StackLayout>
-                <ListView x:Name="lstPersons">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <TextCell Text="{Binding Name}"></TextCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </StackLayout>
-        </StackLayout>
-    </StackLayout>
-    -->
-
 </ContentPage>

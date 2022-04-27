@@ -23,7 +23,7 @@ namespace ProductiveBob_Firebase
                   Timestamp = item.Object.Timestamp
               }).Reverse().ToList();
         }
-        public async Task AddSession(string deviceID, Guid id, int rating, TimeSpan duration, string timestamp)
+        public async Task AddSession(string deviceID, Guid id, string rating, TimeSpan duration, string timestamp)
         {
             await firebase
               .Child("Sessions")

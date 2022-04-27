@@ -36,22 +36,24 @@ namespace ProductiveBob_Firebase.Views
         {
             t.Stop();
             t.Dispose();
-            StartClick.IsVisible = true;
+            //StartClick.IsVisible = true;
             StopClick.IsVisible = false;
             showRating(true);
         }
         private void showRating(Boolean b)
         {
             Rating.IsVisible = b;
+            VeryGood.IsVisible = b;
             Good.IsVisible = b;
             Medium.IsVisible = b;
             Bad.IsVisible = b;
+            VeryBad.IsVisible = b;
         }
         private static String GetTimestamp(DateTime value)
         {
-            return value.ToString("yyyyMMdd HH:mm:ss");
+            return value.ToString("yyyy-MM-dd HH:mm:ss");
         }
-        private async void resetButton(object sender, EventArgs e, int Rating)
+        private async void resetButton(object sender, EventArgs e, string Rating)
         {
             try
             {
@@ -72,25 +74,34 @@ namespace ProductiveBob_Firebase.Views
                 Console.WriteLine(ex);
             }
 
-            await firebaseHelper.AddSession("Device ID", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), GetTimestamp(DateTime.Now) );
+            await firebaseHelper.AddSession("29d63af2d087a1b5", Guid.NewGuid(), Rating, new TimeSpan(hours,mins,secs), GetTimestamp(DateTime.Now) );
 
             ResultTimer.Text = "00:00:00";
             LabelTimer.Text = "\n You can do it! \n";
             Alert(sender, e);
             showRating(false);
+            StartClick.IsVisible = true;
 
+        }
+        private void btn_VeryGood_Clicked(object sender, EventArgs e)
+        {
+            resetButton(sender, e, "Very good");
         }
         private void btn_Good_Clicked(object sender, EventArgs e)
         {
-            resetButton(sender, e, 3);
+            resetButton(sender, e, "Good");
         }
         private void btn_Medium_Clicked(object sender, EventArgs e)
         {
-            resetButton(sender, e,2);
+            resetButton(sender, e,"Medium");
         }
         private void btn_Bad_Clicked(object sender, EventArgs e)
         {
-            resetButton(sender, e, 1);
+            resetButton(sender, e, "Bad");
+        }
+        private void btn_VeryBad_Clicked(object sender, EventArgs e)
+        {
+            resetButton(sender, e, "Very bad");
         }
         async void Alert(object sender, EventArgs e)
         {
@@ -114,7 +125,7 @@ namespace ProductiveBob_Firebase.Views
             }
             Device.BeginInvokeOnMainThread(() =>
             {
-                ResultTimer.Text = string.Format("\n {0:00}:{1:00}:{2:00}", hours, mins, secs);
+                ResultTimer.Text = string.Format("{0:00}:{1:00}:{2:00}", hours, mins, secs);
             });
         }
     }

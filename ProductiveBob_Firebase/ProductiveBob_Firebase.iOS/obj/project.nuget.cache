@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "haBYyRJi1JXRRBu1b2ReIJ51z8NNLdJQfPS/leV3KioH1XVipiAXUWT9KdQsRSUADfWiTkcFcEOMaB4nJHI5Cg==",
+  "dgSpecHash": "tqE7R2K0v81Fg1u8pHzWIm9sYKN9vHq7vA1ByDf7kLfOTS7gSLZHg1Jp4vVJhcYWlJbiebMIev0hEiVuJuOF+A==",
   "success": true,
-  "projectFilePath": "/Users/daniela/Desktop/ProductiveBob/ProductiveBob_Firebase/ProductiveBob_Firebase.iOS/ProductiveBob_Firebase.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Naja-\\Documents\\GitHub\\ProductiveBob\\ProductiveBob_Firebase\\ProductiveBob_Firebase.iOS\\ProductiveBob_Firebase.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/daniela/.nuget/packages/firebasedatabase.net/4.0.7/firebasedatabase.net.4.0.7.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/litedb/4.1.4/litedb.4.1.4.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/xam.plugin.deviceinfo/4.1.1/xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/xamarin.essentials/1.7.1/xamarin.essentials.1.7.1.nupkg.sha512",
-    "/Users/daniela/.nuget/packages/xamarin.forms/5.0.0.2401/xamarin.forms.5.0.0.2401.nupkg.sha512"
+    "C:\\Users\\Naja-\\.nuget\\packages\\firebasedatabase.net\\4.0.7\\firebasedatabase.net.4.0.7.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\xam.plugin.deviceinfo\\4.1.1\\xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\Naja-\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
   ],
   "logs": []
 }
